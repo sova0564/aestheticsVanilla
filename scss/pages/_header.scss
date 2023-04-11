@@ -1,0 +1,70 @@
+.logo {
+  width: 246px;
+  height: 144px;
+}
+
+.header_wrap {
+  max-width: 1074px;
+  height: 144px;
+  margin: 0 auto;
+  @include flex_row();
+}
+
+.header_nav {
+  @include flex_row();
+  width: 564px;
+  border-bottom: 0.5px solid #4b6049;
+
+  .nav_item {
+    color: $greenColor;
+    @include text();
+  }
+  .nav_item:hover {
+    border-top: 0.5px solid #4b6049;
+  }
+}
+
+.header_icon {
+  @include flex_row();
+  gap: 24px;
+
+  .icon_size {
+    display: flex;
+
+    .icon_cabinet {
+      background-image: url(../images/cabinet_default.png);
+      background-position: center;
+      width: 40px;
+      height: 40px;
+      transition: background-image 300ms;
+    }
+    .icon_cabinet:hover {
+      background-image: url(../images/cabinet_hover.svg);
+      background-repeat: no-repeat;
+    }
+
+    .icon_favorite {
+      background-image: url(../images/favorite_default.png);
+      background-position: center;
+      width: 40px;
+      height: 40px;
+      transition: background-image 300ms;
+    }
+    .icon_favorite:hover {
+      background-image: url(../images/favorite_hover.png);
+    }
+
+    .icon_basket {
+      background-image: url(../images/basket_default.png);
+      background-position: center;
+      width: 39px;
+      height: 39px;
+      transition: background-image 300ms;
+    }
+    .icon_basket:hover {
+      background-image: url(../images/basket_hover.png);
+      width: 40px;
+      height: 40px;
+    }
+  }
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "title": "Флюїд для обличчя для сухої шкіри",
+    "price": 630,
+    "imgSrc": "fluid_dry_skin.png",
+    "card": "./product_card.html"
+  },
+  {
+    "id": 2,
+    "title": "Антиоксидантний крем для обличчя",
+    "price": 850,
+    "imgSrc": "antioxidant_face_cream.png",
+    "card": "./product_card.html"
+  },
+  {
+    "id": 3,
+    "title": "Гель для вмивання для проблемної шкіри",
+    "price": 590,
+    "imgSrc": "washing_gel_problem_skin.png",
+    "card": "./product_card.html"
+  },
+  {
+    "id": 4,
+    "title": "Зволожуюча сироватка для нормальної шкіри",
+    "price": 480,
+    "imgSrc": "moisturizing_serum_normal_skin_card.png",
+    "card": "./product_card.html"
+  },
+  {
+    "id": 5,
+    "title": "Зволожуючий крем для сухої шкіри",
+    "price": 830,
+    "imgSrc": "moisturizing_cream_dry_skin.png",
+    "card": "./product_card.html"
+  },
+  {
+    "id": 6,
+    "title": "Тонік для обличчя для нормальної шкіри",
+    "price": 450,
+    "imgSrc": "tonic_face_normal_skin.png",
+    "card": "./product_card.html"
+  },
+  {
+    "id": 7,
+    "title": "Пінка для очищення шкіри обличчя",
+    "price": 560,
+    "imgSrc": "facial_cleansing_foam.png",
+    "card": "./product_card.html"
+  },
+  {
+    "id": 8,
+    "title": "Набір Денний та нічний крем",
+    "price": 1230,
+    "imgSrc": "day_and_night_cream.png",
+    "card": "./product_card.html"
+  },
+  {
+    "id": 9,
+    "title": "Матуючий денний крем для жиної шкіри",
+    "price": 680,
+    "imgSrc": "mattifying_day_cream_oily_skin.png",
+    "card": "./product_card.html"
+  },
+  {
+    "id": 10,
+    "title": "Нічний антивіковий крем для сухої шкіри",
+    "price": 860,
+    "imgSrc": "night_antiaging_cream_dry_skin.png",
+    "card": "./product_card.html"
+  },
+  {
+    "id": 11,
+    "title": "Гель для зняття макіяжу",
+    "price": 730,
+    "imgSrc": "makeup_remover_gel.png",
+    "card": "./product_card.html"
+  },
+  {
+    "id": 12,
+    "title": "Антивікова сироватка для зони навколо очей",
+    "price": 900,
+    "imgSrc": "antiaging_serum_eyes.png",
+    "card": "./product_card.html"
+  },
+  {
+    "id": 13,
+    "title": "Лосьон для нормальної та комбінованої шкіри",
+    "price": 1050,
+    "imgSrc": "lotion_normal_combination_skin.png",
+    "card": "./product_card.html"
+  },
+  {
+    "id": 14,
+    "title": "Скраб для чутливої шкіри",
+    "price": 890,
+    "imgSrc": "scrub_sensitive_skin.png",
+    "card": "./product_card.html"
+  },
+  {
+    "id": 15,
+    "title": "Гель для глубокого очищення шкіри обличчя",
+    "price": 890,
+    "imgSrc": "deep_gel_facial_skin_cleansing.png",
+    "card": "./product_card.html"
+  },
+  {
+    "id": 16,
+    "title": "Міцелярний тонік для нормальної шкіри",
+    "price": 780,
+    "imgSrc": "micellar_tonic_normal_skin.png",
+    "card": "./product_card.html"
+  }
+]

@@ -1,0 +1,191 @@
+.header_catalog {
+  margin-bottom: 50px;
+}
+aside {
+  width: 320px;
+  padding-top: 52px;
+  position: relative;
+
+  .accordion {
+    font-family: $fontMukta;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    color: $greenColor;
+    display: flex;
+    margin-bottom: 12px;
+  }
+
+  .panels {
+    //display: none;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+  }
+  .panel {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 6px;
+    gap: 5px;
+    //transition: height 0.25s;
+    opacity: 1;
+    max-height: 9em;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+  }
+
+  .item_list {
+    font-family: $fontMukta;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: $greenColor;
+  }
+  .input_price {
+    max-width: 90px;
+    height: 45px;
+  }
+  .span_price {
+    width: 15px;
+    height: 0px;
+    border: 1px solid $greenColor;
+  }
+  .price_wrap {
+    gap: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+
+.section_wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 1074px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.drop_list {
+  margin-bottom: 20px;
+  .drop_title {
+    font-family: $fontMukta;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: $greenColor;
+    margin-bottom: 23px;
+  }
+}
+
+.products_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card_wrap {
+  max-width: 260px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 12px;
+  position: relative;
+  margin-bottom: 30px;
+
+  .favorite {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+  }
+
+  .favorite:hover {
+    background-image: url(../images/favorite_active.png);
+  }
+
+  .title_card {
+    font-family: $fontMukta;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: $greenColor;
+  }
+  .price_card {
+    font-family: $fontMukta;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: $greenColor;
+    text-align: end;
+  }
+  .price_wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .button_more {
+      font-family: $fontMukta;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: $greenColor;
+    }
+    .button_card {
+      @include button();
+      font-size: 14px;
+      width: 99px;
+      height: 26px;
+      margin: 6px 6px 0 0;
+    }
+
+    .button_card::after {
+      @include button_after();
+      width: 97px;
+      height: 25px;
+      margin: 0 0 6px 6px;
+    }
+
+    .button_card:hover {
+      @include button_hover();
+      margin: 0 0 6px 6px;
+    }
+
+    .button_card:hover::after {
+      @include button_hover_after();
+    }
+  }
+}
+
+.button_catalog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.second_section {
+  display: flex;
+  flex-direction: column;
+  width: 1074px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+
+  .second_title {
+    font-family: $fontMukta;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    color: $greenColor;
+    margin-bottom: 40px;
+  }
+  .second_wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

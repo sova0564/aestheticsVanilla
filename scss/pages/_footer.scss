@@ -1,0 +1,127 @@
+.footer_icons_wrap {
+  display: flex;
+  justify-content: end;
+
+  .footer_icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 245px;
+    margin-bottom: 8px;
+
+    .instagram {
+      background-image: url(../images/inst_default.png);
+      background-repeat: no-repeat;
+      width: 50px;
+      height: 50px;
+      transition: background-image 300ms;
+    }
+    .instagram:hover {
+      background-image: url(../images/inst_hover.png);
+    }
+    .email {
+      background-image: url(../images/email_default.png);
+      background-repeat: no-repeat;
+      width: 50px;
+      height: 50px;
+      transition: background-image 300ms;
+    }
+    .email:hover {
+      background-image: url(../images/email_hover.png);
+    }
+    .phone {
+      background-image: url(../images/phone_default.png);
+      background-repeat: no-repeat;
+      width: 50px;
+      height: 50px;
+      transition: background-image 300ms;
+    }
+    .phone:hover {
+      background-image: url(../images/phone_hover.png);
+    }
+    .address {
+      background-image: url(../images/address_default.png);
+      background-repeat: no-repeat;
+      width: 50px;
+      height: 50px;
+      transition: background-image 300ms;
+    }
+    .address:hover {
+      background-image: url(../images/address_hover.png);
+    }
+  }
+}
+.footer_background {
+  background: #4b6049;
+}
+
+.footer_wrap {
+  height: 192px;
+  display: flex;
+  justify-content: center;
+  padding-top: 38px;
+  gap: 60px;
+
+  li {
+    color: #fffbf5;
+    font-size: 20px;
+    line-height: 150%;
+    margin-left: 0;
+    transition: margin-left 300ms;
+    width: 200px;
+  }
+  .li_wrap {
+    width: 270px;
+  }
+  // li:hover {
+  //   margin-left: 10px;
+  // }
+
+  a {
+    color: #fffbf5;
+    font-size: 20px;
+    line-height: 150%;
+    margin-left: 0;
+    transition: margin-left 300ms;
+  }
+  a:hover {
+    margin-left: 10px;
+  }
+}
+
+.payment_icon {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  position: absolute;
+  bottom: 0;
+
+  .mastercard {
+    background-image: url(../images/mastercard_default.png);
+    width: 52px;
+    height: 32px;
+    transition: background-image 300ms;
+  }
+  .mastercard:hover {
+    background-image: url(../images/mastercard_hover.png);
+  }
+  .visa {
+    background-image: url(../images/visa_default.png);
+    width: 76px;
+    height: 25px;
+    transition: background-image 300ms;
+  }
+  .visa:hover {
+    background-image: url(../images/visa_hover.png);
+  }
+  .apay {
+    background-image: url(../images/apay_default.png);
+    width: 83px;
+    height: 34px;
+    transition: background-image 300ms;
+  }
+  .apay:hover {
+    background-image: url(../images/apay_hover.png);
+  }
+}
